@@ -1,5 +1,5 @@
 from django import template
-from django.core.urlresolvers import reverse
+from django.core.url import reverse
 from random import random
 from django_evercookie.config import settings
 register = template.Library()

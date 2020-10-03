@@ -7,7 +7,7 @@ from django_dont_vary_on.decorators import dont_vary_on
 
 from django.http import HttpResponse
 from django.shortcuts import render_to_response
-from django.core.urlresolvers import reverse
+from django.core.url import reverse
 
 from django_evercookie.helpers import cookie_exists
 from django_evercookie.config import settings
